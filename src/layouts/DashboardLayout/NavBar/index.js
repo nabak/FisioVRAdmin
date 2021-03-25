@@ -21,9 +21,9 @@ import {
 import NavItem from './NavItem';
 
 const user = {
-  avatar: 'https://github.com/JAugustoGuimaraes.png',
-  jobTitle: 'Arquiteto de soluções',
-  name: 'José Augusto Guimarães'
+  avatar: 'https://apicdn.sanar.online/avatar_usuarios/fisioterapeuta-concurseira_1554735056.png',
+  jobTitle: 'Fisioterapeuta',
+  name: 'Maripeuta'
 };
 
 const items = [
@@ -33,14 +33,14 @@ const items = [
     title: 'Início'
   },
   {
-    href: '/app/colaboradores',
+    href: '/app/pacientes',
     icon: UsersIcon,
-    title: 'Colaboradores'
+    title: 'Pacientes '
   },
   {
-    href: '/app/sistemas',
+    href: '/app/exercicios',
     icon: ShoppingBagIcon,
-    title: 'Sistemas'
+    title: 'Exercícios'
   },
   {
     href: '/app/conta',

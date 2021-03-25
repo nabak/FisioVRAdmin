@@ -76,7 +76,7 @@ const LatestProducts = ({ className, ...rest }) => {
     >
       <CardHeader
         subtitle={`${products.length} no total`}
-        title="Sistemas"
+        title="Exercícios"
       />
       <Divider />
       <List>
@@ -116,7 +116,7 @@ const LatestProducts = ({ className, ...rest }) => {
           endIcon={<ArrowRightIcon />}
           size="small"
           variant="text"
-          href="/app/sistemas"
+          href="/app/exercicios"
         >
           Ver todos
         </Button>

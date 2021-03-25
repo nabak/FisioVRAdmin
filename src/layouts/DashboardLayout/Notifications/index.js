@@ -29,11 +29,11 @@ const useStyles = makeStyles((theme) => ({
 const NotificationsList = () => {
   const classes = useStyles();
   const [notifications] = useState([{
-    title: 'Azure Git Repos',
+    title: '',
     image: '/static/images/avatar/1.jpg',
-    from: 'GEAR',
-    content: ' — Conheça os novos repositórios GIT',
-    link: 'https://devops.energisa.com.br'
+    from: 'Paciente 1',
+    content: ' - O paciente se machucou.',
+    link: ''
   }]);
   const [anchorEl, setAnchorEl] = useState(null);
   const toggleNotifications = (event) => {

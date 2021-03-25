@@ -57,7 +57,7 @@ const Toolbar = ({ className, ...rest }) => {
                     </InputAdornment>
                   )
                 }}
-                placeholder="Buscar colaborador"
+                placeholder="Buscar Paciente"
                 variant="outlined"
               />
             </Box>

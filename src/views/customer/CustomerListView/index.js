@@ -25,7 +25,7 @@ const CustomerListView = () => {
   return (
     <Page
       className={classes.root}
-      title="Colaboradores"
+      title="Pacientes"
     >
       <Container maxWidth={false}>
         <Toolbar />

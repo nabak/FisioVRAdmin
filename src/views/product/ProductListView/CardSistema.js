@@ -85,7 +85,7 @@ const CardSistema = ({ className, sistema, ...rest }) => {
               display="inline"
               variant="body2"
             >
-              Updated 2hr ago
+              30 segundos
             </Typography>
           </Grid>
           <Grid
@@ -103,7 +103,7 @@ const CardSistema = ({ className, sistema, ...rest }) => {
             >
               {sistema.totalDownloads}
               {' '}
-              Downloads
+              Paciêntes
             </Typography>
           </Grid>
         </Grid>

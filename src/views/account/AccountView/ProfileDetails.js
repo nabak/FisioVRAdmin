@@ -15,16 +15,8 @@ import {
 
 const states = [
   {
-    value: 'alabama',
-    label: 'Alabama'
-  },
-  {
-    value: 'new-york',
-    label: 'New York'
-  },
-  {
-    value: 'san-francisco',
-    label: 'San Francisco'
+    value: 'Selecione',
+    label: 'Selecione'
   }
 ];
 
@@ -35,12 +27,12 @@ const useStyles = makeStyles(() => ({
 const ProfileDetails = ({ className, ...rest }) => {
   const classes = useStyles();
   const [values, setValues] = useState({
-    firstName: 'José Augusto',
-    lastName: 'Guimarães',
-    email: 'jaugusto@energisa.com.br',
+    firstName: '',
+    lastName: '',
+    email: '',
     phone: '',
-    state: 'Cataguases',
-    country: 'ESA'
+    state: '',
+    country: ''
   });
 
   const handleChange = (event) => {
@@ -59,8 +51,8 @@ const ProfileDetails = ({ className, ...rest }) => {
     >
       <Card>
         <CardHeader
-          subheader="The information can be edited"
-          title="Profile"
+          subheader="As informações podem ser editadas"
+          title="Perfil"
         />
         <Divider />
         <CardContent>
@@ -76,7 +68,7 @@ const ProfileDetails = ({ className, ...rest }) => {
               <TextField
                 fullWidth
                 helperText="Please specify the first name"
-                label="First name"
+                label="Primeiro nome"
                 name="firstName"
                 onChange={handleChange}
                 required
@@ -91,7 +83,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             >
               <TextField
                 fullWidth
-                label="Last name"
+                label="Sobrenome"
                 name="lastName"
                 onChange={handleChange}
                 required
@@ -106,7 +98,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             >
               <TextField
                 fullWidth
-                label="Email Address"
+                label="Email"
                 name="email"
                 onChange={handleChange}
                 required
@@ -121,7 +113,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             >
               <TextField
                 fullWidth
-                label="Phone Number"
+                label="Telefone"
                 name="phone"
                 onChange={handleChange}
                 type="number"
@@ -136,7 +128,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             >
               <TextField
                 fullWidth
-                label="Country"
+                label="País"
                 name="country"
                 onChange={handleChange}
                 required
@@ -151,7 +143,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             >
               <TextField
                 fullWidth
-                label="Select State"
+                label="Selecione o Estado"
                 name="state"
                 onChange={handleChange}
                 required
@@ -182,7 +174,7 @@ const ProfileDetails = ({ className, ...rest }) => {
             color="primary"
             variant="contained"
           >
-            Save details
+            Salvar
           </Button>
         </Box>
       </Card>

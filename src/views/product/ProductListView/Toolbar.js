@@ -36,7 +36,7 @@ const Toolbar = (props, { className, ...rest }) => {
                     </InputAdornment>
                   )
                 }}
-                placeholder="Buscar sistema"
+                placeholder="Buscar Exercício"
                 variant="outlined"
               />
             </Box>

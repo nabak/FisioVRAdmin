@@ -16,10 +16,10 @@ import {
 
 const user = {
   avatar: 'https://github.com/JAugustoGuimaraes.png',
-  city: 'Cataguases',
-  country: 'ESA',
-  jobTitle: 'Arquiteto de Soluções',
-  name: 'José Augusto Guimarães',
+  city: 'Juiz de Fora',
+  country: 'Brasil',
+  jobTitle: 'Fisioterapeuta',
+  name: 'Fisioterapeuta',
   timezone: 'GTM-7'
 };
 
